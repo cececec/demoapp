@@ -10,6 +10,8 @@ development:
   database: demoapp_developmen
  # database: db/development.sqlite3
   pool: 5
+#  username: demoapp
+#  password: michael 
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
@@ -21,6 +23,8 @@ test:
   database: demoapp_test
  # database: db/test.sqlite3
   pool: 5
+#  username: demoapp
+#  password: michael 
   timeout: 5000
 
 production:
@@ -29,5 +33,6 @@ production:
   database: demoapp_production
  # database: db/production.sqlite3
   pool: 5
+#  username: demoapp
+#  password: michael 
   timeout: 5000
-
